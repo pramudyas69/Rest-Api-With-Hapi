@@ -1,5 +1,5 @@
 import hapi, { server } from "@hapi/hapi";
-import routes from "./routes/notes-route.js";
+import routes from "./app/routes/notes-route.js";
 
 const init = async () => {
   const server = hapi.server({
